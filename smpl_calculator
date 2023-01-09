@@ -1,0 +1,17 @@
+ch="y"
+while(ch!="n"):
+    a=int(input("Enter the first number:"))
+    b=int(input("Enter second number:"))
+    print("1.sum 2.sub 3.mul 4.div")
+    c=int(input("Enter the choice:"))
+    if(c==1):
+        print("SUM =",a+b)
+    elif(c==2):
+        print("SUB =",a-b)
+    elif(c==3):
+        print("MUL =",a*b)
+    elif(c==4):
+        print("DIV =",a/b)
+    else:
+        print("WRONG CHOICE!!!")
+    ch=input("Do you want to continue(y/n):") 
