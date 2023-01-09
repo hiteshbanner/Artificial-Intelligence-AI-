@@ -1,0 +1,6 @@
+a=input("Enter the sentence: ")
+l=a.split()
+l.sort()
+for i in l:
+    print(i,end=" ")
+    
